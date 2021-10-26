@@ -6,29 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
 </head>
+
 <body>
-    <h1 style="text-align: center;">register</h1>
-    <form style="additive-symbols: center;" action="login.html" method="post">
-        <div>
-            <label for="FromStation">FromStation:</label>
-            <select id="FromStation">
-                <option disabled>--select--</option>
-                <option value="madhurai"> madurai</option>
-                <option value="ramnad">ramnad </option>
-                <option value="cbe">coimbature</option>
-            </select><br><br>
-        
-        <label for="toStation">ToStation:</label>
-        <input type="text" id="to" name="to"  placeholder="destination"  list="toStation" required>
-        <datalist id="toStation" >
-            <option value="chennai">chennai</option>
-            <option value="kar">karaikudi</option>
-            <option value="try">trichy</option>
-                </datalist><br><br>
-        <label for="date">date:<input type="date" id="date" name="date" value="2021-10-12" max="2021-10-21" min="2021-10-12"></label><br>
-       <br> <button type="button">search</button>
-        
-        </div>
+    <form>
+    
+     FIRSTNAME:<input type="text" name="FIRSTNAME" required><BR><BR>
+    LASTNAME:<input type="text" name="LASTNAME" required><BR><BR>
+        <input type="radio" name="gender" id="male">male<br>
+        <input type="radio" name="gender"id="female">female<br>
+    EMAIL OR PHONENUMBER:<input type="text" name="EMAIL"placeholder="007x@gmail.com" required><br><BR>
+     PASSWORD: <input type="password" name="PASSWORD"placeholder="*****"required><br>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
     </form>
 </body>
 </html>
